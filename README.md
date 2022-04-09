@@ -30,7 +30,7 @@ if BF then
 		
 			-- Setting etc
 			["Select Weapon"] = "",
-			["Auto Rejoin"] = true,
+			["Auto Rejoin"] = false,
 		
 			-- Old World
 			["Auto New World"] = false,
