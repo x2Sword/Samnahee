@@ -30,7 +30,7 @@ if BF then
 		
 			-- Setting etc
 			["Select Weapon"] = "",
-			["Auto Rejoin"] = true,
+			["Auto Rejoin"] = false,
 		
 			-- Old World
 			["Auto New World"] = false,
@@ -45,7 +45,7 @@ if BF then
 			["Auto Death Step"] = false,
 			["Auto Dragon Talon"] = false,
 			["Auto Electric Clow"] = false,
-			["Auto Buy Legendary Sword"] = true,
+			["Auto Buy Legendary Sword"] = false,
 			["Auto Buy Legendary Sword Hop"] = false,
 			["Auto Buy Enhancement"] = false,
 			["Auto Farm Select Boss Hop"] = false,
@@ -4934,7 +4934,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("Ren","Blox Fruit 1.18.2.4.5WeP")
+	local Main = library:Window("Moon","Blox Fruit 1.18.2.4.5WeP")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
