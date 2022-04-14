@@ -30,7 +30,7 @@ if BF then
 		
 			-- Setting etc
 			["Select Weapon"] = "",
-			["Auto Rejoin"] = false,
+			["Auto Rejoin"] = true,
 		
 			-- Old World
 			["Auto New World"] = false,
@@ -45,7 +45,7 @@ if BF then
 			["Auto Death Step"] = false,
 			["Auto Dragon Talon"] = false,
 			["Auto Electric Clow"] = false,
-			["Auto Buy Legendary Sword"] = false,
+			["Auto Buy Legendary Sword"] = true,
 			["Auto Buy Legendary Sword Hop"] = false,
 			["Auto Buy Enhancement"] = false,
 			["Auto Farm Select Boss Hop"] = false,
